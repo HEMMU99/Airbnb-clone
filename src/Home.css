@@ -1,0 +1,7 @@
+.home_section{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1% 0 0;
+    justify-content: center;
+}

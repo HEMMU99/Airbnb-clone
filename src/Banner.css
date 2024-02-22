@@ -1,0 +1,61 @@
+.banner {
+  background: url("https://images.pexels.com/photos/1267438/pexels-photo-1267438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  position: relative;
+  height: 50vh;
+  background-position: 58% 71%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.banner__info {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  width: 550px;
+  position: relative;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner__info h3 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.banner__info p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  width: 100%;
+}
+
+.banner__info button {
+  background-color: magenta;
+  padding: 12px 18px 12px 18px;
+  color: #d3d3d3;
+  cursor: pointer;
+  border: 2px solid magenta;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.button__searchButton {
+  background-color: #fff !important;
+  color: #ff385c !important;
+  text-transform: inherit !important;
+  font-weight: 600;
+  border: 1px solid #d3d3d3 !important;
+  outline-width: 0 !important;
+  cursor: pointer !important;
+  font-size: 20px !important;
+}
